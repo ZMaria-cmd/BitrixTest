@@ -12,14 +12,14 @@ $APPLICATION->SetTitle("Детальная новость");
 
 
 $APPLICATION->IncludeComponent(
-    "parser:news.detail", // Ваш компонент для детальной страницы
+    "parser:news.detail", 
     ".default",
     array(
         "IBLOCK_ID" => 1, // ID инфоблока
-        "CODE" => $_REQUEST["CODE"], // Получаем код из URL
+        "CODE" => $_REQUEST["CODE"],
         "CACHE_TYPE" => "N",
         "CACHE_TIME" => "3600",
-        "SET_TITLE" => "Y", // Устанавливаем заголовок страницы
+        "SET_TITLE" => "Y", 
     ),
     false
 );
