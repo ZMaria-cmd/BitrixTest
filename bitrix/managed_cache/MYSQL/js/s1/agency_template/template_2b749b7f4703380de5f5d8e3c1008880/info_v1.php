@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/agency_template/js/scripts.js" => "16796847001654",]; ?>

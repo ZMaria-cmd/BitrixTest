@@ -1,0 +1,44 @@
+2024-Sep-17 07:46:47 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2024-Sep-17 07:46:47 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2024-Sep-17 07:46:47 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2024-Sep-17 07:46:47 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2024-Sep-17 07:46:47 Сохранение сессии (check_session): Ok
+50% done
+2024-Sep-17 07:46:47 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2024-Sep-17 07:46:47 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2024-Sep-17 07:46:47 Работа с сокетами (check_socket): Fail
+Connection to ssl://bitrix.test:443	Success
+== Request ==
+GET /bitrix/admin/site_checker.php?test_type=socket_test&unique_id=aa62051fbf6cabb27549f68395dd46ee HTTP/1.1
+Host: bitrix.test
+
+
+== Response ==
+HTTP/1.1 200 OK
+Date: Tue, 17 Sep 2024 04:46:47 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Upgrade: h2,h2c
+Connection: Upgrade
+X-Powered-By: PHP/8.0.30
+Cache-Control: max-age=0
+Expires: Tue, 17 Sep 2024 04:46:47 GMT
+Vary: Accept-Encoding
+Content-Length: 34
+Content-Type: text/html; charset=UTF-8
+
+== Body ==
+Permission denied: UNIQUE ID ERROR
+==========
+
+Ошибка! Не работает

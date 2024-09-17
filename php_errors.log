@@ -1,0 +1,14 @@
+[15-Sep-2024 21:49:24 Etc/GMT-3] PHP Fatal error:  Uncaught Error: Call to a member function ShowTitle() on null in C:\OSPanel\home\bitrix.test\local\templates\agency_template\header.php:8
+Stack trace:
+#0 C:\OSPanel\home\bitrix.test\news\index.php(5): require()
+#1 C:\OSPanel\home\bitrix.test\bitrix\modules\main\include\urlrewrite.php(184): include_once('C:\\OSPanel\\home...')
+#2 C:\OSPanel\home\bitrix.test\bitrix\urlrewrite.php(2): include_once('C:\\OSPanel\\home...')
+#3 {main}
+  thrown in C:\OSPanel\home\bitrix.test\local\templates\agency_template\header.php on line 8
+[15-Sep-2024 21:49:38 Etc/GMT-3] PHP Fatal error:  Uncaught Error: Call to a member function ShowTitle() on null in C:\OSPanel\home\bitrix.test\local\templates\agency_template\header.php:8
+Stack trace:
+#0 C:\OSPanel\home\bitrix.test\news\index.php(5): require()
+#1 C:\OSPanel\home\bitrix.test\bitrix\modules\main\include\urlrewrite.php(184): include_once('C:\\OSPanel\\home...')
+#2 C:\OSPanel\home\bitrix.test\bitrix\urlrewrite.php(2): include_once('C:\\OSPanel\\home...')
+#3 {main}
+  thrown in C:\OSPanel\home\bitrix.test\local\templates\agency_template\header.php on line 8

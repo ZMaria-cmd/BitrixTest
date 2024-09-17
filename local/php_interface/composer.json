@@ -1,0 +1,14 @@
+{
+  "name": "maria/php_interface",
+  "require": {
+    "paquettg/php-html-parser": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyNamespace\\": "src/"
+    }
+  },
+  "require-dev": {
+    "nesk/puphpeteer": "^2.0"
+  }
+}
